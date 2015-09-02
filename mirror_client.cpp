@@ -20,5 +20,6 @@ int main(int argc, char *argv[ ]){
     s.Connect( argv[2], 9876 ); // Same port as server
     s.Write( argv[1], 80 );		// Send first program argument to server
     s.Read( buffer, 512 );		// Read the answer sent back from server
+    printf( "%s \n", buffer );	// Print the string
 
 }
