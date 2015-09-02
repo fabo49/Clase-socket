@@ -1,0 +1,12 @@
+
+*.o
+
+server
+
+client
+
+*.7z
+
+*.pdf
+
+*.docx
